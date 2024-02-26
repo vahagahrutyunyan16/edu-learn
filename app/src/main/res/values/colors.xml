@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bright_yellow">#F9AD2F</color>
+    <color name="quick_silver">#A5A5A5</color>
+    <color name="topaz">#FACD81</color>
+    <color name="quartz">#4B4B4B</color>
+    <color name="gray_x11">#BCBCBC</color>
+    <color name="bright_gray">#E9E9E9</color>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text.Roboto.Regular" parent="">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="Text.Roboto.Medium" parent="">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="Text.Roboto.Bold" parent="">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="Text.Roboto.Black" parent="">
+        <item name="android:fontFamily">@font/roboto_black</item>
+    </style>
+
+    <style name="rounded_image">
+        <item name="cornerSize">@dimen/dp_10</item>
+    </style>
+
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ClassFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_26">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_container" />
+
+        <TextView
+            style="@style/Text.Roboto.Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_14"
+            android:text="@string/edu_learn"
+            android:textColor="@color/quartz"
+            android:textSize="@dimen/sp_26" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/Text.Roboto.Bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_34"
+        android:text="@string/your_class"
+        android:textColor="@color/quartz"
+        android:textSize="@dimen/sp_26" />
+
+    <TextView
+        style="@style/Text.Roboto.Bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_24"
+        android:text="@string/mastering_ui_ux_design"
+        android:textColor="@color/quartz"
+        android:textSize="@dimen/sp_16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_24"
+        android:background="@drawable/class_bg"
+        android:orientation="horizontal">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/dp_8"
+            android:layout_marginStart="@dimen/dp_8"
+            android:scaleType="centerCrop"
+            android:src="@drawable/paper_img"
+            app:shapeAppearanceOverlay="@style/rounded_image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_12"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_8"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text.Roboto.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/application_history_in_the_world"
+                android:textColor="@color/quartz"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                style="@style/Text.Roboto.Bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/beginner"
+                android:textColor="@color/quick_silver"
+                android:textSize="@dimen/sp_14" />
+
+            <TextView
+                style="@style/Text.Roboto.Regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_8"
+                android:text="@string/_5_10"
+                android:textColor="@color/quick_silver" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/textView5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <View
+                        android:layout_width="@dimen/dp_100"
+                        android:layout_height="@dimen/dp_10"
+                        android:background="@drawable/procces_ind_bg" />
+
+                    <View
+                        android:layout_width="@dimen/dp_50"
+                        android:layout_height="@dimen/dp_10"
+                        android:layout_marginEnd="@dimen/dp_80"
+                        android:background="@drawable/procces_ind_bg"
+                        android:backgroundTint="@color/bright_yellow" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/Text.Roboto.Regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="end|center_vertical"
+                    android:text="@string/_50"
+                    android:textColor="@color/quick_silver"
+                    android:textSize="@dimen/sp_10"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
