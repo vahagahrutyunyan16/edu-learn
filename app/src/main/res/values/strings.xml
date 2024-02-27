@@ -15,4 +15,11 @@
     <string name="beginner">Beginner</string>
     <string name="_5_10">5/10</string>
     <string name="_50">50%</string>
+    <string name="show_alert_dialog">Show Alert Dialog</string>
+    <string name="event_fragment">Event Fragment</string>
+    <string name="custom_dialog">Custom Dialog</string>
+    <string name="name">Name</string>
+    <string name="mail">Mail</string>
+    <string name="log_in">Log In</string>
+    <string name="show_custom_dialog">Show Custom Dialog</string>
 </resources>
